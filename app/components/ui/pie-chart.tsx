@@ -19,9 +19,9 @@ export default function CircularProgressBar() {
   };
 
   const options = {
-    cutout: '80%',
+    cutout: '70%',
     plugins: {
-      tooltip: { enabled: false }, 
+      tooltip: { enabled: true }, 
       legend: { display: false }, 
     },
   };
