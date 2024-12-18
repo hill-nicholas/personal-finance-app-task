@@ -1,5 +1,4 @@
 import React from 'react'
-import { FaDollarSign } from "react-icons/fa";
 import HeaderCard from './HeaderCard';
 import PotsCard from './PotsCard';
 import TransactionCard from './TransactionCard';
