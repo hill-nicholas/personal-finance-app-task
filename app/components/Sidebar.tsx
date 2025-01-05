@@ -6,7 +6,7 @@ import { TbCashRegister } from "react-icons/tb";
 import { RiBillLine } from "react-icons/ri";
 const Sidebar = () => {
   return (
-    <div className='bg-[#201f24] gap-10 pt-10 flex flex-col w-1/6 rounded-t-lg rounded-bl-lg min-h-svh '>
+    <div className='bg-[#201f24] gap-10 pt-10 flex-col w-1/6 rounded-t-lg rounded-bl-lg min-h-svh hidden lg:flex'>
         <div className='p-5'><p className='font-[900] text-white text-2xl'>Hillary Finance</p></div>
         <div className='flex flex-col'>
             <div className='bg-white text-grey-900 flex items-center gap-5 p-5 border-l-4 border-l-[#277C78] w-5/6 rounded-r-lg cursor-pointer'>
