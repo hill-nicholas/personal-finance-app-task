@@ -3,7 +3,7 @@ import { MdArrowDropDown } from 'react-icons/md'
 
 const RecurringBills = () => {
   return (
-    <div className='rounded-lg bg-white px-5 pt-6 pb-10  '>
+    <div className='rounded-lg bg-white px-5 pt-6 pb-10 text-black  '>
         <div className='flex justify-between mb-5'>
             <p className='text-[#201f24] font-bold'>Recurring bills</p>
             <p className='flex items-center gap-3'>See Details  <MdArrowDropDown size={30} /> </p>

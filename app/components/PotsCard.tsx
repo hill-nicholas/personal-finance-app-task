@@ -4,7 +4,7 @@ import { MdArrowDropDown } from "react-icons/md";
 import { TbCashRegister } from 'react-icons/tb';
 const PotsCard = () => {
   return (
-    <div className='rounded-lg bg-white px-5 pt-6 pb-10  '>
+    <div className='rounded-lg bg-white px-5 pt-6 pb-10 text-black '>
         <div className='flex justify-between mb-5'>
             <p className='text-[#201f24] font-bold'>Pots</p>
             <p className='flex items-center gap-3'>See details <MdArrowDropDown size={30} /> </p>
@@ -12,7 +12,7 @@ const PotsCard = () => {
         <div className='flex flex-col lg:flex-row gap-4'>
             <div className='bg-[#f8f4f0] rounded-lg px-2 py-4 w-full lg:w-1/3 flex items-center gap-3 self-start'>
                 <TbCashRegister  size={40} className='text-[#277C78]' />
-                <div className=''>
+                <div className='text-black '>
                     <p className='text-sm'>Total saved</p>
                     <p className='font-bold text-3xl flex gap-1 mt-1'><FaDollarSign /> 907</p>
                 </div>

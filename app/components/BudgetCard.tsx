@@ -5,7 +5,7 @@ import { MdArrowDropDown } from 'react-icons/md'
 const BudgetCard = () => {
   return (
 
-    <div className='rounded-lg bg-white px-5 pt-6 pb-10  '>
+    <div className='rounded-lg bg-white px-5 pt-6 pb-10  text-black '>
       <div className='flex justify-between mb-5'>
           <p className='text-[#201f24] font-bold'>Budgets</p>
           <p className='flex items-center gap-3'>See details <MdArrowDropDown size={30} /> </p>
